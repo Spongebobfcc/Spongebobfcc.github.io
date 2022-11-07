@@ -1,0 +1,92 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <title>my website</title>
+ <link rel="stylesheet"  href="style.css">
+ <style>
+ h1 {text-align:center ;
+     font-style:italic ;
+     color:#ff6042 
+ }
+ 
+ .beige {boder:solid 3px grey ;
+         background-color:beige ;
+         background-image:url("/storage/emulated/0/HTML practice/sunbath.jpg") ;
+         background-position:center ;
+         background-size:cover ;
+         padding-top:10px ;
+         height:500px ;
+         width:85% ;
+         display:flex ;
+         flex-direction:row ;
+         flex-wrap:wrap ;
+         justify-content:center ;
+         align-items:center ;
+ }
+ 
+ body {height:700px ;
+       width:100% ;
+       background-image:url("/storage/emulated/0/HTML practice/beachview.jpg") ;
+       background-repeat:no-repeat ;
+       background-size:cover ;
+       background-position:center ;
+       color:white ; 
+               
+ }
+ 
+ .header {background-image:url("/storage/emulated/0/HTML practice/beachview.jpg") ;
+     background-position:top-left ;
+     background-color:grey ;
+     margin:20px ;
+     padding:3px ;
+     width:200px ;
+     text-align:center ;
+     }
+ 
+ .bag {display:flex ;
+       flex-direction:row ;
+       justify-content:flex-end ;
+       
+ }
+ 
+ .book {margin:10px ; 
+        margin-bottom:0px ;
+        }
+       
+ .boxer {display:flex ;
+         flex-direction:column ;
+         align-items:center ;	
+         }
+        
+       
+textarea {width:200px ;
+ </style>
+ </head>
+ <body>
+ <form >
+ <div >
+ <div class="bag">
+ <p class="book"><a href="index.html">Home</a></p>
+ <p class="book"><a href="description.html">Terms</a></p>
+ <p class="book"><a href="form.html">Contact</a></p>
+ </div>
+ 
+ <button><a href="index.html">BACK!</a></button>
+ <div class="boxer" >
+ <div class="header">
+ <h1>WELCOME!! </h1>
+ </div>
+ <div class="beige">
+ <p>Name:<input type="text" required ></p><br>
+ <span>Email:<input type="text" required></span><br>
+ <span>ID:<input type="number" required></span><br>
+ <span>Phone:<input type="number" placeholder="+254" required></span><br>
+ <span><p>preference & description:</p><textarea></textarea></span>
+ <span><p>i agree to terms!!</p><input type="checkbox" checked></span><br>
+ <span><input type="submit" value="submit"></span>
+ </div>
+ </div>
+ </div>
+ </form>  
+ </body>
+ </html>
